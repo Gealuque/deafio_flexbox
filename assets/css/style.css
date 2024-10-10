@@ -31,7 +31,10 @@ li {
 .container_foto1{
     border: 1px solid #bec1bb;
     display: flex;
+    gap: 15px;
+    align-items: center;
     justify-content: space-between;
+    width: 100%;
 }
 .mini_foto{
     height: 50px;
@@ -45,7 +48,6 @@ li {
     height: auto;
 }
 .foto_1{
-    width: 70%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -53,7 +55,6 @@ li {
 }
 .descripcion{
     border: 1px solid green;
-    width: 80%;
     justify-content: start;
 }
 .nombre{
@@ -65,13 +66,46 @@ li {
 .iconos{
     justify-content: space-evenly;
     align-items: center;
-    width: 60%;
+    width: 40%;
     padding: 25px 15px 15px 15px;
     border: 1px solid blue;
-
 }
 .icon1{
     margin: 0 5px;
 }
 
 /*Boton*/
+.container_boton{
+    padding: 30px 20px 20px 30px;
+    border: 0.5px solid #e8ebe4;
+}
+.boton {
+    background-color: #A491D2; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px 30px; /* Espaciado interno */
+    border: 0.5px solid #e8ebe4; /* Sin borde */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+    font-size: 16px; /* Tamaño de la fuente */
+    transition: background-color 0.3s; /* Transición suave */
+}
+/*Resto de contactos*/
+.box_fotos{
+    display: flex;
+    justify-content: space-evenly;
+    border: 0.5px solid #e8ebe4;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+}
+.estandar_foto{
+    height: 70px;
+    width: 70px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    border: 1px solid #e8ebe4;
+}
+.estandar_foto img{
+    width: 100%;
+    height: auto;
+}
