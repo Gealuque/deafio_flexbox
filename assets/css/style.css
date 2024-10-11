@@ -4,6 +4,8 @@ body{
     box-sizing: border-box;
     background-color: #e8ebe4;
     min-height: 100vh;
+    font-family: "Roboto", serif;
+    font-style: normal;
 }
 .contenedor_total{
     display: flex;
@@ -38,8 +40,8 @@ li {
     width: 100%;
 }
 .mini_foto{
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     overflow: hidden;
     border-radius: 50%;
     display: flex;
@@ -52,43 +54,51 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid red;
+    padding-left: 25px;
 }
 .descripcion{
-    border: 1px solid green;
     justify-content: start;
+    text-align: left;
+    line-height: 0.1;
+    width: 100%;
 }
 .nombre{
-    font-size: 14px;
+    font-size: 15px;
 }
 .estado{
     font-size: 10px;
+    color: #bec1bb;
 }
 .iconos{
     justify-content: space-evenly;
     align-items: center;
-    width: 40%;
-    padding: 25px 15px 15px 15px;
-    border: 1px solid blue;
+    width: 60%;
+    padding: 15px 15px 15px 10px;
+    color: #bec1bb;
 }
 .icon1{
-    margin: 0 5px;
+    margin: 0 10px;
+    font-size: 20px;
+}
+.icon2{
+    font-size: 20px;
 }
 
 /*Boton*/
 .container_boton{
-    padding: 30px 20px 20px 30px;
+    padding: 40px 20px 40px 30px;
     border: 0.5px solid #e8ebe4;
 }
 .boton {
-    background-color: #A491D2; /* Color de fondo */
-    color: white; /* Color del texto */
-    padding: 10px 30px; /* Espaciado interno */
-    border: 0.5px solid #e8ebe4; /* Sin borde */
-    cursor: pointer; /* Cambia el cursor al pasar el mouse */
-    font-size: 16px; /* Tamaño de la fuente */
-    transition: background-color 0.3s; /* Transición suave */
+    background-color: #A491D2; 
+    color: white; 
+    padding: 10px 30px; 
+    border: 0.5px solid #e8ebe4; 
+    cursor: pointer;
+    font-size: 16px; 
+    transition: background-color 0.3s; 
 }
+
 /*Resto de contactos*/
 .box_fotos{
     display: flex;
