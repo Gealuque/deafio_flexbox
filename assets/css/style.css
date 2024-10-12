@@ -4,8 +4,8 @@ body{
     box-sizing: border-box;
     background-color: #e8ebe4;
     min-height: 100vh;
-    font-family: "Roboto", serif;
-    font-style: normal;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
 }
 .contenedor_total{
     display: flex;
@@ -147,9 +147,31 @@ li {
 .box_centro{
     display: flex;  
     flex-direction: column;
+    margin: 1px 0;
     align-items: center;
     justify-content: center; 
     text-align: center;
     width: 100%;
     min-height: 100vh;
 }
+.box_centro img {
+    width: 300px;
+    height: auto;
+}
+.box_p_texto{
+    margin: 1px 0;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;   
+}
+.box_titulo{
+    font-size: 24px;  
+}
+.box_s_texto{
+    justify-content: center;
+    text-align: center;
+    width: 60%;
+    text-align: center;
+}
+
+
