@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #e8ebe4;
+    background-color: #f9f9f9;
     min-height: 100vh;
     font-family: "Roboto", sans-serif;
     font-weight: normal;
@@ -13,6 +13,7 @@ body{
 .contactos{
     min-height: 100vh;
     border: 1px solid #bec1bb;
+    border-right: none;
     display: flex;
     flex-direction: column;
     background-color: #fff;
@@ -26,13 +27,13 @@ ul {
     list-style: none;
 }
 li {
-    width: 300px;
+    width: 290px;
     list-style: none;
 }
 
 /*Primera Foto*/
 .container_foto1{
-    border: 1px solid #bec1bb;
+    border-bottom: 0.5px solid #bec1bb;
     display: flex;
     gap: 15px;
     align-items: center;
@@ -103,10 +104,11 @@ li {
 
 .box_fotos{
     display: flex;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
     justify-content: space-evenly;
     border: 1px solid #e8ebe4;
+    border-left: none;
 }
 .box_s_fotos{
         display: flex;
@@ -114,7 +116,6 @@ li {
         justify-content: center;
         padding-left: 8px;
         width: 35%;
-        border: 1px solid green;
 }
 .estandar_foto{
     height: 50px;
@@ -131,10 +132,9 @@ li {
 .text_foto{
     display: flex;
     flex-direction: column;
-    line-height: 0%;
+    line-height: 0.3;
     text-align: start;
     width: 70%;
-    border: 1px solid blue;
 }
 .nombres{
     font-size: 16px;
@@ -147,31 +147,30 @@ li {
 .box_centro{
     display: flex;  
     flex-direction: column;
-    margin: 1px 0;
-    align-items: center;
     justify-content: center; 
     text-align: center;
     width: 100%;
     min-height: 100vh;
 }
-.box_centro img {
-    width: 300px;
+.box_centro_logo{
+    width: 250px;
     height: auto;
 }
-.box_p_texto{
-    margin: 1px 0;
+.box_texto_centro{
     align-items: center;
-    justify-content: center; 
-    text-align: center;   
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 .box_titulo{
-    font-size: 24px;  
+    font-size: 45px;  
+    margin: 0;
 }
-.box_s_texto{
-    justify-content: center;
-    text-align: center;
-    width: 60%;
-    text-align: center;
+.imagen_fondo{
+    padding-bottom: 15px;
+}
+.parte_texto{
+    width: 50%;
 }
 
 
